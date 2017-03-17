@@ -1,10 +1,9 @@
 Body {
   text-align: center;
+  font-family: Helvetica;
 }
 
 nav {
-  text-align: center;
-  font-family: Helvetica;
   color: white;
   background-image: url("../images/the-flatiron-building.png");
 }
@@ -18,11 +17,27 @@ nav ul {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#newyork {
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
 }
 
 footer {
   text-align: left;
-  color: black;
+  color: white;
+  background-color: dimgray;
 }
